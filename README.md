@@ -137,17 +137,17 @@ Configuration examples and details can be found in the repository documentation 
 Throughout the project, documentation was maintained for each step:
 
 1. Configuration File:
-   - OpenVPN Server Configuration (server.conf): The main configuration file for OpenVPN, detailing settings and parameters for the VPN server.
-   - OpenVPN Client Configuration (client.ovpn): Contains configuration settings for connecting clients to the OpenVPN server.
+   - OpenVPN Server Configuration (`server.conf`): The main configuration file for OpenVPN, detailing settings and parameters for the VPN server.
+   - OpenVPN Client Configuration (`client.ovpn`): Contains configuration settings for connecting clients to the OpenVPN server.
 
 2. Firewall Configuration:
-   - Firewall Rules (firewall_rules_all_zones.txt): Contains the configuration of advanced firewall rules applied to secure the VPN environment.
+   - Firewall Rules (`firewall_rules_all_zones.txt`): Contains the configuration of advanced firewall rules applied to secure the VPN environment.
 
 3. VPN Setup:
-   - TCPDump Capture File (capture.pcap): Illustrates encrypted traffic and helps verify the effectiveness of SSL/TLS encryption.
+   - TCPDump Capture File (`capture.pcap`): Illustrates encrypted traffic and helps verify the effectiveness of SSL/TLS encryption.
 
 4. System Logs:
-   - OpenVPN Logs (messages): Includes log entries related to OpenVPN, documenting connection attempts and other relevant events.
+   - OpenVPN Logs (`messages`): Includes log entries related to OpenVPN, documenting connection attempts and other relevant events.
 
 ## 📝 Conclusion
 

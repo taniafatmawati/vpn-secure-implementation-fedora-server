@@ -148,7 +148,7 @@ Throughout the project, documentation was maintained for each step:
    - TCPDump Capture File (`capture.pcap`): Illustrates encrypted traffic and helps verify the effectiveness of SSL/TLS encryption.
 
 4. System Logs:
-   - OpenVPN Logs (`messages`): Includes log entries related to OpenVPN, documenting connection attempts and other relevant events.
+   - OpenVPN Logs ([`messages`](https://drive.google.com/file/d/1eKTXnjlpgEj6v9BvJPbJIl9juoi5M5Ph/view?usp=sharing)): Includes log entries related to OpenVPN, documenting connection attempts and other relevant events.
 
 ## 📝 Conclusion
 

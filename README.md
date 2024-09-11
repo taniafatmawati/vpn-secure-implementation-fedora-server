@@ -85,8 +85,8 @@ sudo firewall-cmd –-reload
 
 5.1. **Restart OpenVPN Service to Apply Configuration**
 ```bash
-sudo systemctl restart openvpn-server@server
 sudo systemctl enable openvpn-server@server
+sudo systemctl start openvpn-server@server
 ```
 
 5.2. **Verify OpenVPN Service Status**
@@ -106,6 +106,7 @@ Navigate to `/etc/openvpn/easy-rsa` and generate the client certificate and key:
 
 Move the generated files to the OpenVPN `client-config` directory:
 ```bash
+mkdir /etc/openvpn/client/client-config
 cp pki/private/client.key /etc/openvpn/client/client-config
 cp pki/issued/client.crt /etc/openvpn/client/client-config
 cp pki/ca.crt /etc/openvpn/client/client-config
